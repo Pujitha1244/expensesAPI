@@ -1,0 +1,43 @@
+npm init
+
+1st we need to create a server for that we need to install express
+npm i express
+create a server
+listen to port
+
+all the code of expressjs will come to node_modules
+node_modules: place where it install all the code of the package
+all the dependencies will be installed in node_modules
+
+
+^5.1.0 : role of ^ : Automatically update in the version if there is any change in patch or minor change (5.X.X)
+5.1.0 => 5.1.1 (patch changes Safely Upgrade)
+5.1.0 => 5.2.1 (Minor changes safe to upgrade)
+major.minor.patch(5.1.0)
+
+
+npm i express
+create a server
+listen to port 7777
+write request handlers for /test
+npm install -g nodemon and update scripts in package.json
+
+play with routes and extensions
+Order of routes matter a lot
+HTTP methods : get, post, patch, delete
+make workspace in postman and test api call
+Explore routing and use of ?, +, (), * in routes
+use of regix in routes
+Reading query params in routes('/user/:userId/:name')
+Reading dynamic routes
+
+app.use('/user) 
+use means it can handle any type of method get or post or patch 
+
+Multiple route handlers
+next()
+next function and error along with res.send()
+
+waht is a Middleware
+How express js basically handles requests behind the scenes
+what is difference between app.use() and app.all()
