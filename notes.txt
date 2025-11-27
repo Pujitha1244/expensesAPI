@@ -69,4 +69,5 @@ add required, unique, lowercase
 add default
 create a custome validate functionImprove DB Schema
 Add timestamps to the userSchema
-
+Add api level validations on Patch request and sighUp post API
+add validation to each field
