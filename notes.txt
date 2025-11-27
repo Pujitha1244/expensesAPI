@@ -47,4 +47,26 @@ install mongoose library
 connect your application to database by connection URL
 call connectdb function and connect to data base before listening to port 7777
 
-Create a user Schema
+Create a user Schema ans user Model
+Create /signup API and add data to database
+push some documents using API calls from postman
+Error handling using try catch Blocks
+
+find the difference between JSON an JS object
+add express.json() middleware to your application
+Make your sign Up API dynamic to receive data from end User
+
+Get user by mailId
+Feed API - GET /feed:  get all users from Database
+API: Get user by mailId
+Create delete API
+Diff between PATCH and PUT
+Update the user
+Explore mongoose documentation
+
+Explore schema type options from database 
+add required, unique, lowercase
+add default
+create a custome validate functionImprove DB Schema
+Add timestamps to the userSchema
+
