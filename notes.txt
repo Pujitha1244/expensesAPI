@@ -41,3 +41,10 @@ next function and error along with res.send()
 waht is a Middleware
 How express js basically handles requests behind the scenes
 what is difference between app.use() and app.all()
+
+Create a cluster if dont have cluster in mongoDB 
+install mongoose library
+connect your application to database by connection URL
+call connectdb function and connect to data base before listening to port 7777
+
+Create a user Schema
