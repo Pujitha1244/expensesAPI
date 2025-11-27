@@ -71,3 +71,28 @@ create a custome validate functionImprove DB Schema
 Add timestamps to the userSchema
 Add api level validations on Patch request and sighUp post API
 add validation to each field
+install validator
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Encrypting passwords:
+---------------------
+- npm i bcrypt
+- create passwordhash using bcrypy.hash and save the user with encrypted password
+- bcrypt.compare in login API
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
